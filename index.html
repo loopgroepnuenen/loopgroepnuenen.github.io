@@ -1,166 +1,50 @@
 <!DOCTYPE html>
 <html>
+<style>
 
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Voor kleinere schermen */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+</style>
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <title>Responsieve lay-out</title>
     <style>
-        hr {
-            border: none;
-            height: 8px;
-            color: gray;
-            background-color: gray;
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
         }
 
-        h1 {
-            font-size: calc(18px + 0.390625vw);
-            color: #63bfc4;
-        }
-
-        .verspace {
-            height: 25px;
-        }
-
-        .url {
-            font-size: calc(15px + 0.390625vw);
-            color: #63bfc4;
-        }
-
-        body {
-            font-size: calc(15px + 0.390625vw);
-            padding-left: 10px;
-            padding-right: 10px;
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
-
 <body>
-    <img src="https://lonu.loopgroepnuenen.nl/wp-content/uploads/2024/10/wayve.jpg" width="90%">
-    <h1>LLL: Effect van voeding bij hardlopen 31 okt.</h1>
-
-    Op donderdag 31 oktober is er weer een LLL (Lonu's leerzame lezingen) avond met als gastspreker: Ellen Jooren van
-    Wayve voedingsadvies, orthomoleculair voedingsdeskundige en zelf ook hardloopster. Tijdens deze sessie deelt Ellen
-    haar expertise over de cruciale rol die voeding speelt bij hardlopen. Hoe be&iuml;nvloedt wat je eet je prestaties en je
-    herstel? Wat kun je v&oacute;&oacute;r, tijdens en na een hardloopsessie eten om optimaal te presteren? <br>
-    Hoe voorkom je
-    bijvoorbeeld de stekende pijn in je zij of de kramp in je spieren? Ellen geeft praktische tips en inzichten op basis
-    van onderzoek en haar uitgebreide ervaring. Of je nu een beginnende loper bent of je volgende marathon plant, deze
-    lezing biedt waardevolle informatie voor elk niveau. Ellen gaat in op persoonlijk voedingsplannen die aansluiten bij
-    trainingsdoelen en -behoeften. Zelf is ze flexitari&euml;r en tijdens de lezing wordt ook aandacht besteed aan lekker
-    eten voor vegetari&euml;rs die intensief hardlopen. Uiteraard is er ook ruimte voor vragen, zodat je direct advies kunt
-    krijgen. Mis deze kans niet om te leren hoe je door middel van voeding je hardloopprestaties naar een hoger niveau
-    kunt tillen!
-    <br><br>
-    Deze lezing wordt aangekondigd in de lokale kranten, en is dus voor iedereen toegankelijk. We willen deze lezing om
-    <b>20.15</b> starten. Voorafgaand is daarom een wat kortere (maar intensieve) training.
-    <br><br>
-    <hr>
-
-    <!-------------------------------->
-
-    <img src="https://lonu.loopgroepnuenen.nl/wp-content/uploads/2024/10/malpie.jpg" width="80%">
-    <h1>Bosloop in de Malpie, 27 okt.</h1>
-    TODO
-    <hr>
-
-    <!-------------------------------->
-
-    <hr>
-    Merijn TODO
-    <!-------------------------------->
-
-    <hr>
-    <img src="https://lonu.loopgroepnuenen.nl/wp-content/uploads/2024/10/marathon-ehv-2024.jpg" width="80%">
-
-    <h1>Marathon Eindhoven</h1>
-
-    Er deden dit jaar heel wat lopers (<b>19</b> !) van Lonu mee aan verschillende onderdelen in de afgelopen marathon
-    van
-    Eindhoven:<br>
-    <b>1/4 Marathon:</b><br>
-    Robin 01:00.12 / Latoya , Britt en Martje 01:01:21 / Yana 01:04:50 / Bjorn 01:05:13
-    Jaap 01:11:06 <br>
-    <b>1/2 Marathon</b><br>
-    Rob 01:23:00 / Bernand 01:28:44 / Gertie 01:54:25 /Marjolein 01:57:16 / Bram 02:08:39
-    Irma 02:09:19 / Rianne 02:14:11 / Annet 02:16:23 / Aphinya 02:20:30 / Ernst
-    <br>
-    <b>Marathon</b><br>
-    Pepijn / Sjef
-    <br><br>
-    En de week daarvoor was er ook nog de Singelloop van 10 km in Breda:<br>
-    Hans 0:54:00 / Latoya 01:02:00
-    <br><br>
-    <hr>
-
-    <!-------------------------------->
-
-    <img src="https://lonu.loopgroepnuenen.nl/wp-content/uploads/2024/10/7heuvelentrail-2024.jpg" width="80%">
-
-
-    <h1>Zevenheuvelen trail</h1>
-    Een paar maanden geleden kwam de vraag in de R1 groep, wie heeft er zin om de Zevenheuvelentrail bij Nijmegen mee te
-    lopen. Er waren verschillende afstanden mogelijk, maar de 60 km viel meteen al af, we weten onze grens dus die laten
-    we over aan de PR-groep. Jaap ging voor de 28 km en Mieke, Ronald, Sam en ik schreven ons in voor de 21 km. We
-    hebben al een paar keer een trail van 18 km gelopen, dus 3 km meer zou toch te doen moeten zijn. Aangezien Jaap het
-    niet zag zitten om helemaal in zijn uppie te lopen, sloot hij zich gezellig bij ons aan.
-    <br><br>
-    Toen we ons inschreven leek 21 september nog heel ver weg, dus tijd zat om te trainen. Maar de zomervakantie was
-    ineens voorbij en toen begonnen we toch wel wat zenuwachtig te worden. Ronald stelde voor om de N70 van te voren een
-    keer te lopen, zodat we in ieder geval al wat hoogtemeters in de benen hadden. Goed idee, maar Mieke kwam te val en
-    hield hier enkelklachten aan over. Ze had nog tot het laatst de hoop mee te kunnen lopen, maar het zat er helaas
-    niet in.
-    <br><br>
-    De weersverwachting was niet echt trailweer. Geen regen, kou, harde wind of sneeuw, maar wel volop zon en 25 graden.
-    Dat zou dus zweten worden. We reden op tijd aan, want we wilden niet net als in Houffalize de start missen. De
-    Zevenheuvelentrail is een groot evenement met veel deelnemers, dus veel auto's en dus ver weg parkeren. De eerste
-    kilometers voordat we gestart waren zaten meteen al in de benen, het warm lopen konden we overslaan.
-    <br><br>
-    De start was in waves en daardoor konden we goed verspreid starten. Bij de start maakten we kennis met een
-    praatgrage laatste loper. Een soort menselijke bezemwagen. We wisten dus meteen wie we onderweg niet tegen wilde
-    komen. Het eerste stuk van de route ging over het terrein van museum Orientalis tussen Afrikaanse hutjes door. De
-    temperatuur paste hier goed bij. Meteen daarna was het al flink klimmen en dat bleef het tot de finish aan toe. Wat
-    een pittige route! Gelukkig had Ronald al van te voren uitgezocht dat bij 14 km de grootste afdaling zou zijn en
-    daarna de steilste klim. We hadden bedacht dat als we maar hard zouden afdalen we genoeg snelheid zouden moeten
-    hebben om met een vaartje de klim te halen. Dat was te optimistisch gedacht en moesten we net als de andere
-    deelnemers deze heuvel wandelend nemen.
-    <br><br>
-    Onderweg waren er drie verzorgingsposten, dus gelukkig konden we genoeg drinken en eten. Jaap ging vol voor de
-    winegums, met als gevolg dat hij een kwartier later nog op de winegums aan het kauwen was, wat niet echt lekker
-    liep. Wat ook niet meehielp was dat hij de hele weg ruzie had met zijn waterzak. Er kwam niets uit of meteen een
-    hele grote straal, niet echt handig. Maar Jaap is een kanjer, dus hij gaf niet op.
-    <br><br>
-    Wat een heerlijk gevoel toen we de finish zagen. Over de tijd zullen we het niet hebben. Bij een trail gaat het toch
-    om de kilometers en de hoogtemeters. De laatste loper zijn we gelukkig niet tegen gekomen. Trots dat we het zonder
-    kleerscheuren gehaald hebben! De een met wat meer zweetdruppels dan de ander. Volgend jaar nog een keer? We hopen
-    dat er dan nog meer mensen aansluiten, want deze trail is echt de moeite waard.
-    <br>
-
-    <!-------------------------------->
-    <hr>
-
-    <h1>Rabo Clubsupport</h1>
-    De afgelopen weken hebben een flink aantal leden op Lonu gestemd, heel hartelijk daarvoor.
-    Dit was de opbrengst:
-    <br><br>
-    <img src="https://lonu.loopgroepnuenen.nl/wp-content/uploads/2024/10/Rabo-clubsupport-cheque-2024.jpg" width="80%">
-
-    <!-------------------------------->
-    <hr>
-    <img src="https://lonu.loopgroepnuenen.nl/wp-content/uploads/2024/10/duvelscross-2024.jpg" width="80%">
-    <h1>Crossen in de omgeving</h1>
-
-    Het cross seizoen is weer geopend! Zoals elk jaar zijn er weer een paar heel leuke crossen, vlakbij en voor ieder
-    wat wils.
-    <br><br>
-    <ul>
-       <li>3 november: Helmond, Molenvencross (4,7 of 9,2 km)<br>
-        zie <a class="url" href="https://www.hac-helmond.nl/evenement/molenvencross/116">https://www.hac-helmond.nl/evenement/molenvencross/116</a>
-    </li>
-    <li>
-        17 november : Lieshout, d'Duvelscross (2 - 4 - 6 - of 8 km) <br>
-        zie <a class="url" href="https://www.runnersclublieshout.nl/pages/dn-duvelscros">https://www.runnersclublieshout.nl/pages/dn-duvelscros</a>
-    </li>
-    </ul>
-
+    <div class="container">
+        <div class="item">
+            <h2>Kolom 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <img src="image1.jpg" alt="Afbeelding 1">
+        </div>
+        <div class="item">
+            <h2>Kolom 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <img src="image2.jpg" alt="Afbeelding 2">
+        </div>
+    </div>
 </body>
-
 </html>
