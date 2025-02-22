@@ -12,6 +12,14 @@
     padding: 20px;
 }
 
+h2 {
+    background-color: #D38744;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
 .col {
     flex: 1 1 calc(50% - 20px);
     background: #f4f4f4;
@@ -27,7 +35,7 @@
 }
 
 .col h2 {
-    background-color: #D38744;
+    background-color: #b98557;
     color: white;
     padding: 10px;
     border-radius: 8px;
