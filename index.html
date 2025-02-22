@@ -4,60 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Layout</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            padding: 20px;
-        }
-
-        .item {
-            flex: 1 1 calc(50% - 20px);
-            background: #f4f4f4;
-            padding: 20px;
-            text-align: center;
-            border-radius: 8px;
-        }
-
-        .item img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-
-        @media (max-width: 768px) {
-            .item {
-                flex: 1 1 100%;
-            }
-        }
-    </style>
 </head>
 <body>
     <div class="container">
-        <div class="item">
+        <div class="col">
             <h2>Titel 1</h2>
-            <p>Dit is een voorbeeldtekst voor het eerste item.</p>
+            <p>Dit is een voorbeeldtekst voor het eerste col.</p>
             <img src="https://placehold.co/600x400" alt="Voorbeeldafbeelding">
         </div>
-        <div class="item">
+        <div class="col">
             <h2>Titel 2</h2>
-            <p>Dit is een voorbeeldtekst voor het tweede item.</p>
+            <p>Dit is een voorbeeldtekst voor het tweede col.</p>
             <img src="https://placehold.co/600x400" alt="Voorbeeldafbeelding">
         </div>
-        <div class="item">
+        <div class="col">
             <h2>Titel 3</h2>
             <p>Een ander stuk tekst met een afbeelding.</p>
             <img src="https://placehold.co/600x400" alt="Voorbeeldafbeelding">
         </div>
-        <div class="item">
+        <div class="col">
             <h2>Titel 4</h2>
             <p>Nog een voorbeeldtekst met een afbeelding.</p>
             <img src="https://placehold.co/600x400" alt="Voorbeeldafbeelding">
