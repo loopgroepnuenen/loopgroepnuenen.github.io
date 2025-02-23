@@ -10,6 +10,7 @@
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
+    
 }
 
 h2 {
@@ -18,6 +19,7 @@ h2 {
     padding: 10px;
     margin: 20px;
     border-radius: 8px;
+   
 }
 
 .col {
@@ -32,13 +34,21 @@ h2 {
     max-width: 90%;
     height: auto;
     border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.col h2 {
-    background-color: #b98557;
-    color: white;
-    padding: 10px;
-    border-radius: 8px;
+.subtitle {
+    color: #D38744;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 p {
