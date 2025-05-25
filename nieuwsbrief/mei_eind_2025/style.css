@@ -57,6 +57,11 @@ p {
     padding-bottom: 20px;
 }
 
+.link {
+    color: #6a44d3;
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .col {
         flex: 1 1 100%;
